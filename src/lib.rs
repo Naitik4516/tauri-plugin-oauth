@@ -7,7 +7,7 @@ use std::{
 
 use tauri::{
     plugin::{Builder, TauriPlugin},
-    Runtime,
+    Runtime, Emitter
 };
 
 const EXIT: [u8; 4] = [1, 3, 3, 7];

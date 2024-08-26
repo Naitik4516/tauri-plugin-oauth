@@ -5,8 +5,10 @@ use std::{
     thread,
 };
 
-use tauri::plugin::{Builder, Runtime, TauriPlugin};
-
+use tauri::{
+    plugin::{Builder, TauriPlugin},
+    Runtime,
+};
 
 const EXIT: [u8; 4] = [1, 3, 3, 7];
 
